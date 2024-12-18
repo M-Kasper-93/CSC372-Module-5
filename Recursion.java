@@ -16,8 +16,6 @@ public class ProductCalc {
             return numbers.get(i) * values(numbers, i + 1);
         }
     }
-}
-
 public static void main(String[] args) {
     ArrayList<Integer> numbers = new ArrayList<>();
     Scanner scnr = new Scanner();
@@ -36,4 +34,5 @@ public static void main(String[] args) {
     
     result = values(numbers, 0);
     System.out.println("Product of these numbers = " + result);
+}
 }
